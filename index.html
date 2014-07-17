@@ -1,1 +1,81 @@
-My GitHub Page
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Share Button Test</title>
+  <style>
+    html { width: 100%; height: 100%; overflow: hidden; }
+    body { -webkit-font-smoothing: antialiased;width: 100%; height: 100%;overflow: hidden;margin: 0; padding: 0;background: #4f3b5b;background: -moz-radial-gradient(center, ellipse cover,  #4f3b5b 0%, #231733 100%);background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#4f3b5b), color-stop(100%,#231733));background: -webkit-radial-gradient(center, ellipse cover,  #4f3b5b 0%,#231733 100%);background: -o-radial-gradient(center, ellipse cover,  #4f3b5b 0%,#231733 100%);background: -ms-radial-gradient(center, ellipse cover,  #4f3b5b 0%,#231733 100%);background: radial-gradient(ellipse at center,  #4f3b5b 0%,#231733 100%);}
+    .share-button { margin: 100px auto; }
+    .fork img { opacity: .6; -webkit-transition: all .5s ease; transition: all .5s ease; }
+    .fork img:hover { opacity: 1; }
+    span.declaration{width:500px;height:60px;font-size:22px;line-height:60px;display:block;color:white;margin:0 auto 0 auto;}
+    span.declaration a{text-decoration:none;color:#ee2222;}
+    span.declaration a:hover{text-decoration:none;color:#ee8822;}
+  </style>
+  <link rel="stylesheet" href="new.css">
+  <meta name='description' content='A simple, light, flexible, and good-looking share button'>
+  <meta name='og:image' content='http://carrot.is/img/fb-share.jpg'>
+</head>
+<body>
+  <a class='fork' href="https://github.com/carrot/share-button">
+    <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://www.sharebutton.co/images/fork-me.png" alt="Fork me on GitHub">
+  </a>
+  <span class="declaration">Modified from <a href="https://github.com/carrot/share-button">Carrot's share-button project</a></span>
+  <div class='share-button share-button-top'></div>
+  <div class='share-button share-button-left'></div>
+  <div class='share-button share-button-bottom'></div>
+  <div class='share-button share-button-right'></div>
+  <script src='share.js'></script>
+  <script>
+    var share_button_top = new Share(".share-button-top", {
+      title: "Share Button Multiple Element Test",
+      ui: {
+        flyout: "bottom right"
+      },
+      networks: {
+        facebook: {
+          app_id: "602752456409826",
+        }
+      }
+    });
+
+    var share_button_left = new Share(".share-button-left", {
+      title: "Share Button Multiple Instantiation Test",
+      ui: {
+        flyout: "bottom vertical left",
+        button_text: "Left"
+      },
+      networks: {
+        facebook: {
+          app_id: "602752456409826",
+        }
+      }
+    });
+
+    var share_button_right = new Share(".share-button-bottom", {
+      title: "Share Button Multiple Instantiation Test",
+      ui: {
+        flyout: "bottom center",
+        button_text: "Right"
+      },
+      networks: {
+        facebook: {
+          app_id: "602752456409826",
+        }
+      }
+    });
+    var share_button_right = new Share(".share-button-right", {
+      title: "Share Button Multiple Instantiation Test",
+      ui: {
+        flyout: "vertical right",
+        button_text: "Right"
+      },
+      networks: {
+        facebook: {
+          app_id: "602752456409826",
+        }
+      }
+    });
+  </script>
+</body>
+</html>
