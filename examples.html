@@ -9,6 +9,7 @@
     .fork img { opacity: .6; -webkit-transition: all .5s ease; transition: all .5s ease; }
     .fork img:hover { opacity: 1; }
   </style>
+  <link rel="stylesheet" href="new.css">
   <meta name='description' content='A simple, light, flexible, and good-looking share button'>
   <meta name='og:image' content='http://carrot.is/img/fb-share.jpg'>
 </head>
@@ -19,13 +20,13 @@
   <div class='share-button share-button-top'></div>
   <div class='share-button share-button-left'></div>
   <div class='share-button share-button-bottom'></div>
-  <div class='share-button share-button-bottom'></div>
+  <div class='share-button share-button-right'></div>
   <script src='build/share.js'></script>
   <script>
     var share_button_top = new Share(".share-button-top", {
       title: "Share Button Multiple Element Test",
       ui: {
-        flyout: "top center"
+        flyout: "bottom right"
       },
       networks: {
         facebook: {
@@ -37,7 +38,7 @@
     var share_button_left = new Share(".share-button-left", {
       title: "Share Button Multiple Instantiation Test",
       ui: {
-        flyout: "top left",
+        flyout: "bottom vertical left",
         button_text: "Left"
       },
       networks: {
@@ -50,7 +51,19 @@
     var share_button_right = new Share(".share-button-bottom", {
       title: "Share Button Multiple Instantiation Test",
       ui: {
-        flyout: "bottom right",
+        flyout: "bottom center",
+        button_text: "Right"
+      },
+      networks: {
+        facebook: {
+          app_id: "602752456409826",
+        }
+      }
+    });
+    var share_button_right = new Share(".share-button-right", {
+      title: "Share Button Multiple Instantiation Test",
+      ui: {
+        flyout: "vertical right",
         button_text: "Right"
       },
       networks: {
