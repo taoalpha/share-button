@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "entypo";
+  font-style: normal;
+  font-weight: normal;
+  src: url("entypo-social.woff") format("woff");
+}
+@font-face {
+  font-family: "entypo";
+  font-style: normal;
+  font-weight: normal;
+  src: url("entypo.woff") format("woff");
+}
+.entypo-facebook:before{content:"\f30c"}
+.entypo-twitter:before{content:"\f309"}
+.entypo-gplus:before{content:"\f30f"}
+.entypo-pinterest:before{content:"\f312"}
+.entypo-tumblr:before{content:"\f315"}
+.entypo-linkedin:before{content:"\f318"}
+.entypo-paper-plane:before{content:"\27A2"}
+.entypo-renren:before{content:"\f33C"}
+.entypo-weibo:before{content:"\f33F"}
+.entypo-export:before{content:"\e715"}
