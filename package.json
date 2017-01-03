@@ -21,7 +21,7 @@
   "dependencies": {},
   "devDependencies": {
     "accord": "0.26.3",
-    "autoprefixer-stylus": "0.11.0",
+    "autoprefixer-stylus": "0.13.0",
     "axis-css": "^0.2.0-rc.3",
     "clean-css": "^3.4.21",
     "coffee-script": "^1.7.1",
