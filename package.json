@@ -20,7 +20,7 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "accord": "0.26.4",
+    "accord": "0.27.1",
     "autoprefixer-stylus": "0.13.0",
     "axis-css": "^0.2.0-rc.3",
     "clean-css": "^4.0.1",
