@@ -30,7 +30,7 @@
     "monocle": "^1.1.51",
     "should": "^11.1.1",
     "stylus": "^0.54.5",
-    "uglifyjs": "^2.3.6",
+    "uglifyjs": "^2.4.11",
     "umd": "^3.0.1",
     "when": "^3.7.7",
     "zombie": "*"
