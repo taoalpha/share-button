@@ -33,7 +33,7 @@
     "uglifyjs": "^2.3.6",
     "umd": "^3.0.1",
     "when": "^3.7.7",
-    "zombie": "*"
+    "zombie": ">=6.0.0"
   },
   "scripts": {
     "test": "mocha test"
