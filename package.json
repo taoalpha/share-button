@@ -23,7 +23,7 @@
     "accord": "0.26.4",
     "autoprefixer-stylus": "0.14.0",
     "axis-css": "^0.2.0-rc.3",
-    "clean-css": "^4.0.1",
+    "clean-css": "^4.2.0",
     "coffee-script": "^1.7.1",
     "colors": "^1.1.2",
     "mocha": "^4.0.0",
