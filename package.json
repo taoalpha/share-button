@@ -26,7 +26,7 @@
     "clean-css": "^4.0.1",
     "coffee-script": "^1.7.1",
     "colors": "^1.1.2",
-    "mocha": "^4.0.0",
+    "mocha": "^6.2.2",
     "monocle": "^1.1.51",
     "should": "^13.1.0",
     "stylus": "^0.54.5",
